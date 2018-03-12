@@ -53,7 +53,8 @@
 		'Vet du vad det bästa är? Mordus Principus?',
 		'Mordus Principus? Mordus Principus!',
 		'Beauty outside, Mordus Principus inside',
-		'Make the most of Mordus Principus'
+		'Make the most of Mordus Principus',
+		'Power, beauty and Mordus Principus'
 	]
 	var rand = quotes[Math.floor(Math.random() * quotes.length)];
 	rand = rand.replace('Mordus Principus', '<span style="color: rgb(253, 108, 108)">Mordus Principus</span>')
