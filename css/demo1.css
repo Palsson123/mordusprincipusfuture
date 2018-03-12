@@ -24,7 +24,7 @@
 .title-container{
 	height: 25%;
 	position:fixed;
-	top:54%;
+	top:56%;
 	transform: rotate(-5deg);
 }
 .imgloaded .content__title,
