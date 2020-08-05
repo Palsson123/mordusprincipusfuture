@@ -22,10 +22,9 @@
 	--blend-color-5: #af4949;
 }
 .title-container{
-	height: 25%;
-	position:fixed;
-	top:56%;
-	transform: rotate(-5deg);
+	
+	margin-top:58vh;
+	transform: rotate(-8deg);
 }
 .imgloaded .content__title,
 .imgloaded .content__text {
@@ -36,13 +35,14 @@
 }
 
 .content__title {
-	font-size: 2vw;
+	font-size: 3rem;
 	position: relative;
 	font-family: 'Playfair Display', serif;
 	animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 }
+
 
 .content__text {
 	font-family: 'IM Fell English', serif;
@@ -57,6 +57,13 @@
 }
 
 @media screen and (max-width: 55em) {
+	.content__title {
+		font-size: 1.1rem;
+		font-weight: 800;
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
 	.content__text {
 		position: relative;
 		right: auto;
@@ -64,6 +71,9 @@
 		font-size: 1.25em;
 		padding: 0 1em;
 		text-align: center;
+	}
+	.bg {
+		content: url("../img/bg_mobile.png") !important;
 	}
 }
 
@@ -79,17 +89,22 @@
 
 .glitch__img {
 	position: absolute;
-	top: calc(-1 * var(--gap-vertical));
-	left: calc(-1 * var(--gap-horizontal));
-	width: calc(100% + var(--gap-horizontal) * 2);
-	height: calc(100% + var(--gap-vertical) * 2);
-	background: url('../img/bg') no-repeat 50% 0;
+	top: 0;
+	left: 0;
+	width: calc(100vw);
+	height: calc(100vh);
+	
 	background-color: var(--blend-color-1);
 	background-size: cover;
 	transform: translate3d(0,0,0);
 	background-blend-mode: var(--blend-mode-1);
+	
 }
-
+.bg {
+	content: url("../img/bg");
+	width: 100vw;
+	height: 100vh;
+}
 .glitch__img:nth-child(n+2) {
 	opacity: 0;
 }

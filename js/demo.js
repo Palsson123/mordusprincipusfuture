@@ -40,7 +40,20 @@
 		'Mordus Principus? Mordus Principus!',
 		'Beauty outside, Mordus Principus inside',
 		'Make the most of Mordus Principus',
-		'Power, beauty and Mordus Principus'
+		'Power, beauty and Mordus Principus',
+		'Et tu, Mordus Principus?',
+		'When life depends on Mordus Principus',
+		'Positive Results for Mordus Principus',
+		'Helping all people live Mordus Principus',
+		'Passion for Innovation? Mordus Principus!',
+		'Can you hear me now? Mordus Principus.',
+		'Like a good Neighbor, Mordus Principus!',
+		'The Few. The Proud. Mordus Principus.',
+		'Schhh... You Know Mordus Principus',
+		'Avez-Vous Un Mordus Principus?',
+		'You are in good hands with Mordus Principus.',
+		'Who would you have Mordus Principus with?'
+
 	]
 	var rand = quotes[Math.floor(Math.random() * quotes.length)];
 	rand = rand.replace('Mordus Principus', '<span style="color: rgb(253, 108, 108)">Mordus Principus</span>')
